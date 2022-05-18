@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="display: grid; place-items:center;">
+    <div>
+        <h3>Primera Opción</h3>
+        <input type="number" id="primera_opcion" placeholder="Opción inicial">
+    </div>
+    <br>
+    <div>
+        <h3>Última Opción</h3>
+        <input type="number" id="ultima_opcion" placeholder="Opción final">
+    </div>
+    <br>
+    <div>
+    <button onclick="generarOpciones()">Generar</button>
+    </div>
+     <br>
+     <div id="mensaje_error"></div>
+    <div>
+        <h3>
+        <label for="opciones">Opciones generadas</label>
+        <select name="" id="opciones">
+            <option value="0">Opciones</option>
+        </select>
+    </h3>
+    </div>
+</div>
+
+<script src="listaopciones.js"></script>
+
+</body>
+</html>
